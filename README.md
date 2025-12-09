@@ -78,6 +78,8 @@ Vá em Propriedades → Alterar ícone e escolha um ícone do LoL
 
 Execute sempre que for jogar
 
+EXEMPLO: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File "C:\000000000000000000000000\ALL\backup\notepad++\tramites.ps1"
+
 💜 Apoie o projeto
 
 Pix: https://pixgg.com/juiz_2026
