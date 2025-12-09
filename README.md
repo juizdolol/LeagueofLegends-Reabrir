@@ -1,26 +1,55 @@
-PATCH OF INSTALATION OF LEAGUE OF LEGENDS: C:\Program Files\Riot Games
-PASTA DA INSTALAÇÃO DO LEAGUE OF LEGENDS: C:\Program Files\Riot Games
-ATENÇÃO: A PASTA PADRÃO NÃO É ESTA, FAVOR REINSTALAR O LOL NESTA PASTA OU 
-EDITAR O TRAMITES.PS1 E INSERIR O LOCAL ONDE SEU LEAGUE OF LEGENDS ESTÁ INSTALADO.
+📌 IMPORTANTE – Diretório Correto de Instalação do LoL
 
-⚙️ 
-League Of Legends - Fechar Cliente ao Iniciar Partida
+PATCH / LOCAL DE INSTALAÇÃO OBRIGATÓRIO DO LEAGUE OF LEGENDS:
+
+C:\Program Files\Riot Games
+
+
+⚠️ ATENÇÃO:
+O League of Legends não usa esse diretório por padrão.
+Para o tramites.ps1 funcionar corretamente:
+
+✔ Instale o LoL em:
+
+C:\Program Files\Riot Games
+
+
+OU
+
+✔ Edite o arquivo tramites.ps1 e coloque o caminho exato onde seu LoL está instalado.
+
+O script precisa desse caminho correto para limpar o cache, encontrar as pastas internas e funcionar sem erros.
+
+⚙️ League Of Legends – Fechar Cliente ao Iniciar Partida
+
 Reabrir Cliente ao Finalizar Partida
-e Modo Loop (tramites.ps1)
+Modo Loop Automático (tramites.ps1)
 
 Autor: JUÍZ DO LOL 👨‍⚖️
-Descrição completa:
 
-Script em PowerShell feito para automatizar o fechamento e reabertura do client do League of Legends.
-Ideal para quem quer evitar travamentos, bugs de reconexão ou reiniciar o client manualmente entre as partidas.
+📝 Descrição:
 
-🧠 Funções principais:
+Script PowerShell para automatizar o comportamento do client do League of Legends, eliminando travamentos e acelerando o fluxo entre partidas.
 
-Detecta automaticamente o League of Legends.exe.
+Ideal para quem quer:
 
-Aguarda 10 segundos após o jogo abrir.
+Evitar bugs de reconexão
 
-Fecha os processos:
+Melhorar desempenho
+
+Fechar o client automaticamente ao iniciar o jogo
+
+Reabrir o client ao final da partida
+
+Rodar em loop infinito sem reiniciar o PowerShell
+
+🧠 Funções principais
+
+Detecta automaticamente o processo League of Legends.exe
+
+Aguarda 10 segundos após o início da partida
+
+Fecha automaticamente:
 
 LeagueClient.exe
 
@@ -28,26 +57,28 @@ RiotClientServices.exe
 
 LeagueCrashHandler64.exe
 
-Quando o jogo é fechado, o script reabre o Riot Client automaticamente.
+Limpa cache seguro do LoL e do Riot Client
 
-Continua em loop infinito, monitorando novas partidas sem precisar reiniciar o PowerShell.
+Quando o jogo fecha → reabre o Riot Client automaticamente
 
-💻 Como usar:
+Loop infinito e leve, sem aumentar uso de RAM
 
-Salve o arquivo como tramites.ps1.
+💻 Como usar
 
-Clique com o botão direito → Criar atalho.
+Salve o arquivo como tramites.ps1
 
-No campo “Destino” do atalho, coloque:
+Clique com o botão direito → Criar atalho
+
+Em Destino, coloque:
 
 powershell.exe -ExecutionPolicy Bypass -File "C:\CAMINHO\PARA\tramites.ps1"
 
 
-Vá em Propriedades > Alterar ícone, escolha o ícone do LoL ou outro de sua preferência.
+Vá em Propriedades → Alterar ícone e escolha um ícone do LoL
 
-Coloque o atalho na Área de Trabalho e execute sempre que for jogar.
+Execute sempre que for jogar
 
-💜 Apoie o projeto:
+💜 Apoie o projeto
 
 Pix: https://pixgg.com/juiz_2026
 
